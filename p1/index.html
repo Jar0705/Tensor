@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TensorFlow.js Sensor Detector</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    </head>
+<body>
+    <h1>Deteksi Objek, Warna & Simulasi Jarak (TF.js)</h1>
+    
+    <video id="webcam" autoplay playsinline muted width="640" height="480"></video>
+    
+    <canvas id="canvas" width="640" height="480"></canvas>
+    
+    <div id="status">Memuat Model...</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
